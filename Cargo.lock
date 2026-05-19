@@ -201,9 +201,9 @@ dependencies = [
 
 [[package]]
 name = "cargo-bin-file"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66e59c06892e93542ca121a84578fdfe8a9e49ff32609917ad333050c8ca372b"
+checksum = "8aa9169611fa73cc15d8e2463b941212dc9a876f9c8169d2eecb534294d87227"
 
 [[package]]
 name = "cargo-emit"
@@ -972,6 +972,8 @@ dependencies = [
 [[package]]
 name = "roxy-loader"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3c3cb85ef2fb34a26179a707eb294db908493b34f20a7c8969d9bab89f03a6bc"
 dependencies = [
  "anyhow",
  "elfloader",
@@ -982,10 +984,14 @@ dependencies = [
 [[package]]
 name = "roxy-loader-api"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "feca34716dcacd4fb93b5845bf70c793edd0185d2646a0c4aca8564526e70802"
 
 [[package]]
 name = "roxy-loader-utils"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4b1b67e94f1c0767552b481596af2a9837532de13b398cd380bffcf1846ff025"
 dependencies = [
  "anyhow",
  "cargo-bin-file",
@@ -1777,6 +1783,7 @@ dependencies = [
  "clap",
  "ovmf-prebuilt",
  "qemu-command-builder",
+ "roxy-loader",
  "roxy-loader-utils",
  "ureq",
  "xshell",
