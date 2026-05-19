@@ -1777,7 +1777,6 @@ dependencies = [
  "clap",
  "ovmf-prebuilt",
  "qemu-command-builder",
- "roxy-loader",
  "roxy-loader-utils",
  "ureq",
  "xshell",
