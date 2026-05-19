@@ -2,6 +2,8 @@
 
 Minimal C kernel template using `roxy-loader` as the bootloader.
 
+When the kernel boots successfully, it fills the screen with a solid color.
+
 ## Requirements
 
 Required tools:
@@ -17,6 +19,14 @@ nix develop
 ```
 
 ## Usage
+
+Commands:
+
+- `make build` - Build the kernel image into `build/`
+- `make run` - Build the kernel and run it in QEMU
+- `make check` - Check that required host tools are installed
+- `make fetch-header` - Download `roxy_loader.h` into `build/include/`
+- `make clean` - Remove Cargo build output for `xtask` and delete `build/`
 
 To run the kernel:
 
