@@ -1,6 +1,6 @@
 # roxy-loader-c-template
 
-Minimal C kernel template using `roxy-loader` as the bootloader. 
+Minimal C kernel template using `roxy-loader` as the bootloader.
 
 ## Requirements
 
