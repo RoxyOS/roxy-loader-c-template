@@ -7,7 +7,7 @@ use crate::{
     command::{Args, Command},
     fetch_header::fetch_header,
     run::run,
-    utils::chdir_to_repo_root,
+    utils::chdir_to_workspace_root,
 };
 
 mod build;
@@ -19,7 +19,7 @@ mod run_vm;
 mod utils;
 
 fn main() -> Result<()> {
-    chdir_to_repo_root()?;
+    chdir_to_workspace_root()?;
 
     let args = Args::parse();
 

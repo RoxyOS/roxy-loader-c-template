@@ -22,8 +22,7 @@
           name = "run-roxy-loader-c-template";
           runtimeInputs = [
             toolchain
-            pkgs.clang
-            pkgs.lld
+            pkgs.pkgsCross.x86_64-embedded.buildPackages.gcc
             pkgs.gnumake
             pkgs.pkg-config
             pkgs.qemu
@@ -38,8 +37,7 @@
         devShells.default = pkgs.mkShell {
           packages = [
             toolchain
-            pkgs.clang
-            pkgs.lld
+            pkgs.pkgsCross.x86_64-embedded.buildPackages.gcc
             pkgs.gnumake
             pkgs.pkg-config
             pkgs.qemu
