@@ -28,7 +28,7 @@ Commands:
 - `make fetch-header` - Download `roxy_loader.h` into `build/include/`
 - `make clean` - Remove Cargo build output for `xtask` and delete `build/`
 
-To run the kernel:
+To run the kernel in QEMU:
 
 ```bash
 make run
