@@ -1024,9 +1024,9 @@ dependencies = [
 
 [[package]]
 name = "roxy-loader-utils"
-version = "0.1.6"
+version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b683e4a1d8e60809a1261e10941ae1c38b836b59e6a7c693b53ab68d13ea7a3"
+checksum = "63470733b241ea04eafe6e10e2e0d11cc18984b0d8f3fcffb68b8dbe2add28f6"
 dependencies = [
  "anyhow",
  "cargo-artifact-dependency",
